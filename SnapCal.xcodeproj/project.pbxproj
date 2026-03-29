@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		A1000001000000000000001 /* SnapCalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000001000000000000011 /* SnapCalApp.swift */; };
+		C2000001000000000000001 /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2000003000000000000001 /* Color+Hex.swift */; };
+		C2000002000000000000001 /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2000003000000000000001 /* Color+Hex.swift */; };
+		C2000003000000000000001 /* Color+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SnapCal/Extensions/Color+Hex.swift"; sourceTree = SOURCE_ROOT; name = "Color+Hex.swift"; };
 		A1000001000000000000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000001000000000000012 /* ContentView.swift */; };
 		A1000001000000000000003 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1000001000000000000013 /* Assets.xcassets */; };
 		A1000001000000000000004 /* MonthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000001000000000000014 /* MonthView.swift */; };
@@ -297,6 +300,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1000001000000000000001 /* SnapCalApp.swift in Sources */,
+				C2000001000000000000001 /* Color+Hex.swift in Sources */,
 				A1000001000000000000002 /* ContentView.swift in Sources */,
 				A1000001000000000000004 /* MonthView.swift in Sources */,
 				A1000001000000000000005 /* WeekView.swift in Sources */,
@@ -318,6 +322,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1000001000000000000022 /* SnapCalWidget.swift in Sources */,
+				C2000002000000000000001 /* Color+Hex.swift in Sources */,
 				A1000001000000000000023 /* SnapCalWidgetBundle.swift in Sources */,
 				A1000001000000000000026 /* EventKitService.swift in Sources */,
 				A1000001000000000000027 /* CalendarEvent.swift in Sources */,
